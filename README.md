@@ -14,7 +14,7 @@
 * [Pool](Creational/Pool) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
 * [Prototype](Creational/Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
 * [SimpleFactory](Creational/SimpleFactory)
-* [单例模式](Creational/Singleton) - [wiki](http://en.wikipedia.org/wiki/Singleton_pattern) (被考虑为反面模式!)
+* [单例模式](Creational/Singleton) - [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (被考虑为反面模式!)
 * [StaticFactory](Creational/StaticFactory)
 
 ### [Structural](Structural)

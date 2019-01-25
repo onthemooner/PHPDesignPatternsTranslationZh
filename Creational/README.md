@@ -9,5 +9,5 @@
 * [对象池模式](Pool) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
 * [原型模式](Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
 * [简单工厂模式](SimpleFactory)
-* [单例模式](Singleton) - [wiki](http://en.wikipedia.org/wiki/Singleton_pattern) (被考虑为反面模式!)
+* [单例模式](Singleton) - [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (被考虑为反面模式!)
 * [静态工厂模式](StaticFactory)
