@@ -1,9 +1,9 @@
 # PHP设计模式翻译与学习
-本项目为https://github.com/domnikl/DesignPatternsPHP的翻译项目，我会进行翻译并添加自己的学习资料和心得
+本项目为 https://github.com/domnikl/DesignPatternsPHP 的翻译项目，我会进行翻译并添加自己的学习资料和心得
 
-## Patterns
+## 设计模式
 
-The patterns can be structured in roughly three different categories. Please click on the [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern) for a full explanation of the pattern on Wikipedia.
+这些模式大致可以分为三类. 请查看 [维基百科](http://en.wikipedia.org/wiki/Software_design_pattern) 关于设计模式的更详细介绍
 
 ### [Creational](Creational)
 
@@ -14,7 +14,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Pool](Creational/Pool) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
 * [Prototype](Creational/Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
 * [SimpleFactory](Creational/SimpleFactory)
-* [Singleton](Creational/Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
+* [单例模式](Creational/Singleton) - [wiki](http://en.wikipedia.org/wiki/Singleton_pattern) (被考虑为反面模式!)
 * [StaticFactory](Creational/StaticFactory)
 
 ### [Structural](Structural)
