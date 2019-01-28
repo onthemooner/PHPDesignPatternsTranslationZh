@@ -9,13 +9,13 @@
 
 * [AbstractFactory](Creational/AbstractFactory) [:notebook:](http://en.wikipedia.org/wiki/Abstract_factory_pattern)
 * [Builder](Creational/Builder) [:notebook:](http://en.wikipedia.org/wiki/Builder_pattern)
-* [FactoryMethod](Creational/FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
+* [工厂方法模式](Creational/FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
 * [Multiton](Creational/Multiton) (is considered an anti-pattern! :no_entry:)
 * [Pool](Creational/Pool) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
 * [Prototype](Creational/Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
-* [SimpleFactory](Creational/SimpleFactory)
+* [简单工厂模式](Creational/SimpleFactory)
 * [单例模式](Creational/Singleton) - [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (被考虑为反面模式!)
-* [StaticFactory](Creational/StaticFactory)
+* [静态工厂模式](Creational/StaticFactory)
 
 ### [Structural](Structural)
 
