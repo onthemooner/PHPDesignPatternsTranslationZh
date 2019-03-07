@@ -1,15 +1,10 @@
-`Pool`__
-========
+# 对象池模式
 
-Purpose
--------
+## 目标
 
-The **object pool pattern** is a software creational design pattern that
-uses a set of initialized objects kept ready to use – a "pool" – rather
-than allocating and destroying them on demand. A client of the pool will
-request an object from the pool and perform operations on the returned
-object. When the client has finished, it returns the object, which is a
-specific type of factory object, to the pool rather than destroying it.
+**对象池模式是一种创建型软件设计模式，它使用一组被初始化好的待命对象（既“池”），而不是通过指令按需分配或销毁对象**
+
+**客户端将从池中请求一个对象并操作对象，当客户端完成对象操作，会把这个对象（这是一个特殊的工厂对象）返回给池，而不是销毁这个对象**
 
 Object pooling can offer a significant performance boost in situations
 where the cost of initializing a class instance is high, the rate of
