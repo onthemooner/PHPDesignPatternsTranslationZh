@@ -6,51 +6,28 @@
 
 **客户端将从池中请求一个对象并操作对象，当客户端完成对象操作，会把这个对象（这是一个特殊的工厂对象）返回给池，而不是销毁这个对象**
 
-Object pooling can offer a significant performance boost in situations
-where the cost of initializing a class instance is high, the rate of
-instantiation of a class is high, and the number of instances in use at
-any one time is low. The pooled object is obtained in predictable time
-when creation of the new objects (especially over network) may take
-variable time.
+**当对一个类进行实例化开销高，类的实例化率很高，及任何一次使用实例数量少的情景下，对象池模式可以提供显著的性能提升**
 
-However these benefits are mostly true for objects that are expensive
-with respect to time, such as database connections, socket connections,
-threads and large graphic objects like fonts or bitmaps. In certain
-situations, simple object pooling (that hold no external resources, but
-only occupy memory) may not be efficient and could decrease performance.
+**当在创建新对象时（特别是通过网络）的时间花费是不固定的，但获取池内的对象的时间花费是可预计的**
 
-UML Diagram
------------
+**总的来说，使用对象池模式在数据库连接、套接字连接、线程或大型图形（如字体、位图）这类需要消耗较多时间创建对象的时候，是确实有益处的**
 
-.. image:: uml/uml.png
-   :alt: Alt Pool UML Diagram
-   :align: center
+**在某些情况下，简单的对象池（不包含外部资源、只占用内存）可能效率不高或降低性能**
 
-Code
-----
+## UML图
 
-You can also find this code on `GitHub`_
+![](./uml/uml.png)
 
-WorkerPool.php
+## 代码
 
-.. literalinclude:: WorkerPool.php
-   :language: php
-   :linenos:
-
+WorkerPool.php  
 StringReverseWorker.php
 
-.. literalinclude:: StringReverseWorker.php
-   :language: php
-   :linenos:
-
-Test
-----
+## 测试
 
 Tests/PoolTest.php
 
-.. literalinclude:: Tests/PoolTest.php
-   :language: php
-   :linenos:
+## 参考
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Pool
-.. __: http://en.wikipedia.org/wiki/Object_pool_pattern
+- https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Pool
+- http://en.wikipedia.org/wiki/Object_pool_pattern
